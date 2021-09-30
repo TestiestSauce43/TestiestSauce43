@@ -13,8 +13,7 @@ app.get('/fun/facts', (req, res) => {
   'Fact: Samsung tests phone durability with a butt-shaped robot',
   'Fact: The “Windy City” name has nothing to do with Chicago weather',
   'Fact: Peanuts aren’t technically nuts, they are actully legumes',
-  'Fact: Armadillo shells are bulletproof'
-
+  'Fact: Armadillo shells are bulletproof',
 
          ]
   let fact = facts[Math.floor(Math.random() * facts.length)]
