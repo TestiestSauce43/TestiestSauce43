@@ -1,7 +1,7 @@
 const app = require("express")();
 const port = your_port;
 app.get('/fun/facts', (req, res) => {
-  var facts = ['
+  var facts = [
   'humans are humans!',
   'Fact: McDonald’s once made bubblegum-flavored broccoli',
   'Fact: Some fungi create zombies, then control their minds',
